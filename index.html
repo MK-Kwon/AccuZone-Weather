@@ -10,15 +10,62 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
     <link href="./Assets/CSS/style.css" rel="stylesheet" type="text/css">
     <script src="https://kit.fontawesome.com/4439e3b362.js" crossorigin="anonymous"></script>
-
     <!--website logo that appears next to the meta title on the browser tab-->
     <link
         href="data:image/x-icon;base64,AAABAAEAEBAAAAEACABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAD///8AI4I6AP/QlAD/uV4AEWYlAP/eswD/6s8A/+3WAP/uswBDqFsA/8N1ALP//wDz1v8A5v//ADicUAAA//8A/+TCAP/KhQArjEIA1v/XAJn//wAZcy8A/9ejAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQEBAQEBAQEBAQEBAQEBBUVFRUVFRULFRUVFRUVExUVDBUVFRUVFRUVFQwVFRUVAQEBAQgBAQEBAQEBAQEBARISEhISEhISEgsSEhISEhIODg4TDg4ODg4ODg4OCA4OCwkJCQkJCwkJCQkJCQkJCQMDAwMDAwMDAwMDAwMDAwMKCgoKCgoAAAAACgoKCgoKEREREREREQAAABEREQ8REQICAgICAgICAAICDwIPAg8WFhYWFhYWFhYWDxYPFA8WAAAAAAAAAAUFBQUPFA0UDxAAAAAAAAAQEA8PFA0NDRQGBgAAAAYGBgYGBg8UDRQPBwcHBwcHBwYHBw8HDxQPBwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="
         rel="icon" type="image/x-icon" />
-
 </head>
 
 <body>
+    <div class="container" id="main-container">
+        <header>
+            <div id="title">
+                <p id="header-text">AccuZone Weather</p>
+            </div>
+        </header>
+        <div class="row" id="main-row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3" id="side-bar">
+                <form id="form">
+                    <div class="form-group">
+                        <label for="inputfield-search">Search for a City:</label>
+                        <input type="text" class="form-control" id="city-input" autocomplete="on"
+                            placeholder="Insert a name of the city">
+                    </div>
+                </form>
+                <div class="button-div">
+                </div>
+            </div>
+            <main>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-9" id="main-content">
+                    <div class="city-div">
+                        <p id="icon" class="icon"></p>
+                        <p id="city-title"></p>
+                        <p id="temperature"></p>
+                        <p id="wind-speed"></p>
+                        <p id="UV-index" class="badge"></p>
+                    </div>
+                    <div class="forecast-div">
+                        <div class="forecast-box" id="box1">
+                            <p id="date1"></p>
+                        </div>
+                        <div class="forecast-box" id="box2">
+                            <p id="date2"></p>
+                        </div>
+                        <div class="forecast-box" id="box3">
+                            <p id="date3"></p>
+                        </div>
+                        <div class="forecast-box" id="box4">
+                            <p id="date4"></p>
+                        </div>
+                        <div class="forecast-box" id="box5">
+                            <p id="date5"></p>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
 
 </body>
 
