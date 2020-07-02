@@ -57,11 +57,24 @@ header {
 }
 
 .btn {
-    margin: 1px auto;
+    margin: 5px auto;
     width: 100%;
     border: none;
     background-color: rgb(214, 214, 214);
     border-radius: 15px;
+}
+
+.btnSearch {
+    margin: 5px auto;
+    width: 30%;
+    border: none;
+    background-color: rgb(214, 214, 214);
+    border-radius: 15px;
+}
+
+.btnSearch:hover {
+    letter-spacing: 2px;
+    transition: .5s;
 }
 
 .btn:hover {
