@@ -21,7 +21,7 @@ body{
 
 header {
     width: 100%;
-    background-color: rgba(85, 85, 85, 0.16);
+    background-color: rgba(85, 85, 85, 0.19);
     height:100px;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
@@ -35,8 +35,8 @@ header {
     margin: 0 auto;
     padding-top: 20px;
     letter-spacing: 5px;
-    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.28);
-    font-weight: bold;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.45);
+    font-weight: 900;
 }
 
 .row {
@@ -69,4 +69,78 @@ header {
     transition: .5s;
 }
 
+#main-content {
+    background-color: rgba(255, 255, 255, 0.59);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
 
+.current-weather {
+    border: 1px solid rgba(112, 112, 112, 0.32);
+    background-color: rgba(255, 255, 255, 0.29);
+    margin: 15px;
+    height: 200px;
+    float: left;
+    width: 90%;
+    border-radius: 10px;
+    padding: 15px 25px;
+    line-height: 12px;
+}
+
+.current-weather:hover {
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.38);
+    transition: .2s;
+    background-color: rgba(255, 255, 255, 0.59);
+}
+
+.five-day-forecast {
+    border: 1px solid rgba(112, 112, 112, 0.32);
+    background-color: rgba(255, 255, 255, 0.29);
+    margin: 15px;
+    height: 200px;
+    float: left;
+    width: 90%;
+    padding: 40px auto 0 auto;
+    border-radius: 10px;
+    display: flex;
+    align-content: center;
+}
+
+.five-day-forecast:hover {
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.38);
+    transition: .2s;
+    background-color: rgba(255, 255, 255, 0.42);
+}
+
+#city-title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.five-day-forecast-card {
+    width: 120px;
+    height: 140px;
+    background-color: rgb(230, 230, 230);
+    float: left;
+    border: 1px solid rgba(112, 112, 112, 0.32);
+    margin: 15px 1% 0px 1%;
+    border-radius: 10px;
+    padding: 0 4px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    margin: 0 auto;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: rgb(31, 31, 31);
+    letter-spacing: 10px;
+    line-height: 23px;
+    font-size: 12px;
+    border-top: 1px rgba(255, 255, 255, 0.32);
+    background-color: rgba(255, 255, 255, 0.3);
+}

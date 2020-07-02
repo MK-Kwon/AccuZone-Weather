@@ -7,7 +7,7 @@
     <title>AccuZone-Weather</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link href="./Assets/CSS/style.css" rel="stylesheet" type="text/css">
     <script src="https://kit.fontawesome.com/4439e3b362.js" crossorigin="anonymous"></script>
     <!--website logo that appears next to the meta title on the browser tab-->
@@ -35,34 +35,32 @@
                 <div class="button-div">
                 </div>
             </div>
-            <main>
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-9" id="main-content">
-                    <div class="city-div">
-                        <p id="icon" class="icon"></p>
-                        <p id="city-title"></p>
-                        <p id="temperature"></p>
-                        <p id="wind-speed"></p>
-                        <p id="UV-index" class="badge"></p>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-9" id="main-content">
+                <div class="current-weather">
+                    <p id="icon" class="icon"></p>
+                    <p id="city-title"></p>
+                    <p id="temperature"></p>
+                    <p id="wind-speed"></p>
+                    <p id="UV-index" class="badge"></p>
+                </div>
+                <div class="five-day-forecast">
+                    <div class="five-day-forecast-card" id="card1">
+                        <p id="date1"></p>
                     </div>
-                    <div class="forecast-div">
-                        <div class="forecast-box" id="box1">
-                            <p id="date1"></p>
-                        </div>
-                        <div class="forecast-box" id="box2">
-                            <p id="date2"></p>
-                        </div>
-                        <div class="forecast-box" id="box3">
-                            <p id="date3"></p>
-                        </div>
-                        <div class="forecast-box" id="box4">
-                            <p id="date4"></p>
-                        </div>
-                        <div class="forecast-box" id="box5">
-                            <p id="date5"></p>
-                        </div>
+                    <div class="five-day-forecast-card" id="card2">
+                        <p id="date2"></p>
+                    </div>
+                    <div class="five-day-forecast-card" id="card3">
+                        <p id="date3"></p>
+                    </div>
+                    <div class="five-day-forecast-card" id="card4">
+                        <p id="date4"></p>
+                    </div>
+                    <div class="five-day-forecast-card" id="card5">
+                        <p id="date5"></p>
                     </div>
                 </div>
-            </main>
+            </div>
         </div>
     </div>
     <footer>Min Kyung Kwon<br>&copy;2020</footer>
