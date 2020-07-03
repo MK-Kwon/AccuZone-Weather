@@ -21,7 +21,7 @@ function init() {
 }
 // Save searched cities to an array in local storage
 function storeCities() {
-    
+    localStorage.setItem("citiesArray", JSON.stringify(citiesArray));
 }
 
 // Create buttons for each searched cities from array
