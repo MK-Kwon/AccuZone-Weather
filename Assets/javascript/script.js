@@ -7,6 +7,7 @@ let city = "",
     cities = "",
     previousCitiesDiv = document.getElementById("prevously-searched-citiesr");
     
+    // Empty array for searched cities
     let citiesArray = [];
     init();
     listClicker();
@@ -39,5 +40,5 @@ function searchClicker() {
 
 // Run 2 API calls, one for current forecast and one for five day forecast
 function APIcalls() {
-    
+
 }
