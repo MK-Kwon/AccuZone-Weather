@@ -1,31 +1,32 @@
-
+// City name put in input field
 let city = "",
-    url = "",
-    APIKey="",
+    // Base URL to make API calls
+    urlAPI = "",
+    // API key from openweathermap.org
+    APIKey = "",
+    // URL to make API calls for current forecast
     currentForeCastUrl = "",
+    // URL to make API calls for five day forecast
     fiveDayForeCastUrl = "",
-    cities = "",
-    previousCitiesDiv = document.getElementById("prevously-searched-citiesr");
-    
-    // Empty array for searched cities
-    let citiesArray = [];
-    init();
-    listClicker();
-    searchClicker();
+    // Empty array for saving searched cities
+    citiesArray = [];
 
-// Retreive previously saved search cities
+// Retreive previously saved search cities then create buttons of the data
 function init() {
-    
+    let savedCities = JSON.parse(localStorage.getItem("citiesArray"));
+    if(savedCities === null) {
+        return;
+    }
     renderButtons();
 }
-// Save searched cities to local storage
+// Save searched cities to an array in local storage
 function storeCities() {
-
+    
 }
 
 // Create buttons for each searched cities from array
 function renderButton() {
-
+    
 }
 
 // On click event for previously searched city button(s)
@@ -42,3 +43,7 @@ function searchClicker() {
 function APIcalls() {
 
 }
+
+init();
+listClicker();
+searchClicker();
