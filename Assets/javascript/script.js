@@ -48,11 +48,17 @@ function renderButton() {
 // On click event for previously searched city button(s)
 function listClicker() {
 
+    $("#prevously-searched-cities").on("click", function(event){
+        event.preventDefault();
+        city = $(this).text().trim();
+        APIcalls();
+    });
 }
 
 // On Click event for search button
 function searchClicker() {
 
+    
 }
 
 // Run 2 API calls, one for current forecast and one for five day forecast
