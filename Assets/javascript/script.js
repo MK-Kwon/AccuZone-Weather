@@ -1,13 +1,5 @@
 // City name put in input field
 let city = "",
-    // Base URL to make API calls
-    urlAPI = "",
-    // API key from openweathermap.org
-    APIKey = "",
-    // URL to make API calls for current forecast
-    currentForeCastUrl = "",
-    // URL to make API calls for five day forecast
-    fiveDayForeCastUrl = "",
     // Empty array for saving searched cities
     citiesArray = [];
 
@@ -45,7 +37,7 @@ function renderButton() {
     }
 }
 
-// On click event for previously searched city button(s)
+// On click event for previously searched city buttons
 function listClicker() {
 
     $("#prevously-searched-cities").on("click", function(event){
@@ -58,12 +50,29 @@ function listClicker() {
 // On Click event for search button
 function searchClicker() {
 
-    
+    $("#search-btn").on("click", function(event){
+        event.preventDefault();
+        city = $(this).prev().val().trim();
+        // Push the newly entered city name into the array
+        cities.push(city);
+        // Remove the oldest item from the array if the total item number in the array exceeds 10
+        if (cities.length > 11) {
+            cities.shift();
+        }
+        if (city === "") {
+            return;
+        }
+        APIcalls();
+        storeCities();
+        renderButtons();
+    });    
 }
 
 // Run 2 API calls, one for current forecast and one for five day forecast
 function APIcalls() {
-
+    
+    
+    
 }
 
 init();
