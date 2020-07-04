@@ -29,36 +29,51 @@
                     <div class="form-group">
                         <label for="inputfield-search">Search by City:</label>
                         <input type="text" class="form-control" id="city-input" autocomplete="on" placeholder="Search">
-                        <button class="btnSearch btn-outline-secondary" type="button"><i
+                        <button class="btnSearch btn-outline-secondary" id="search-btn" type="button"><i
                                 class="fas fa-search"></i></button>
                     </div>
                 </form>
-                <div class="btn-prevously-searched-cities">
+                <div class="button-div" id="prevously-searched-cities">
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-9" id="main-content">
                 <div class="current-weather">
-                    <p id="icon" class="icon"></p>
-                    <p id="city-title"></p>
+                    <h2 id="city-title"></h2>
+                    <img id="icon" class="icon">
                     <p id="temperature"></p>
                     <p id="wind-speed"></p>
-                    <p id="UV-index" class="badge"></p>
+                    <p id="humidity"></p>
                 </div>
                 <div class="five-day-forecast">
                     <div class="five-day-forecast-card" id="card1">
                         <p id="date1"></p>
+                        <p id="five-day-temp1"></p>
+                        <p id="five-day-humidity1"></p>
+                        <img id="five-day-icon1">
                     </div>
                     <div class="five-day-forecast-card" id="card2">
                         <p id="date2"></p>
+                        <p id="five-day-temp2"></p>
+                        <p id="five-day-humidity2"></p>
+                        <img id="five-day-icon2">
                     </div>
                     <div class="five-day-forecast-card" id="card3">
                         <p id="date3"></p>
+                        <p id="five-day-temp3"></p>
+                        <p id="five-day-humidity3"></p>
+                        <img id="five-day-icon3">
                     </div>
                     <div class="five-day-forecast-card" id="card4">
                         <p id="date4"></p>
+                        <p id="five-day-temp4"></p>
+                        <p id="five-day-humidity4"></p>
+                        <img id="five-day-icon4">
                     </div>
                     <div class="five-day-forecast-card" id="card5">
                         <p id="date5"></p>
+                        <p id="five-day-temp5"></p>
+                        <p id="five-day-humidity5"></p>
+                        <img id="five-day-icon5">
                     </div>
                 </div>
             </div>

@@ -56,12 +56,19 @@ header {
     border-right: none;
 }
 
-.btn {
+.listBtn {
     margin: 5px auto;
     width: 100%;
     border: none;
     background-color: rgb(214, 214, 214);
     border-radius: 15px;
+}
+
+.listBtn:hover {
+    letter-spacing: 2px;
+    transition: .5s;
+    background-color: rgb(0, 0, 0, 0.45);
+    color: white;
 }
 
 .btnSearch {
@@ -73,11 +80,6 @@ header {
 }
 
 .btnSearch:hover {
-    letter-spacing: 2px;
-    transition: .5s;
-}
-
-.btn:hover {
     letter-spacing: 2px;
     transition: .5s;
 }
@@ -106,6 +108,10 @@ header {
     background-color: rgba(255, 255, 255, 0.59);
 }
 
+.current-weather h2 {
+    font-weight: 900;
+}
+
 .five-day-forecast {
     border: 1px solid rgba(112, 112, 112, 0.32);
     background-color: rgba(255, 255, 255, 0.29);
@@ -125,6 +131,10 @@ header {
     background-color: rgba(255, 255, 255, 0.42);
 }
 
+.five-day-forecast-card p {
+    font-size: 12px;
+}
+
 #city-title {
     font-weight: bold;
     font-size: 20px;
@@ -132,16 +142,16 @@ header {
 
 .five-day-forecast-card {
     width: 120px;
-    height: 140px;
+    height: 160px;
     background-color: rgb(230, 230, 230);
     float: left;
     border: 1px solid rgba(112, 112, 112, 0.32);
     margin: 15px 1% 0px 1%;
     border-radius: 10px;
     padding: 0 4px;
-    display: flex;
     justify-content: center;
     padding: 10px;
+    font-size: 9px;
 }
 
 footer {
