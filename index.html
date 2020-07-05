@@ -22,11 +22,13 @@
 <body>
     <div class="container" id="main-container">
         <header>
+            <!-- Title-->
             <div id="title">
                 <p id="header-text">AccuZone Weather</p>
             </div>
         </header>
         <div class="row">
+             <!-- Search Input Field-->
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3" id="side-bar">
                 <form id="form">
                     <div class="form-group">
@@ -36,18 +38,21 @@
                                 class="fas fa-search"></i></button>
                     </div>
                 </form>
+                 <!-- Previously Searched City buttons will be rendered here-->
                 <div class="button-div" id="prevously-searched-cities">
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-9" id="main-content">
-                <div class="current-weather">
+                 <!-- Current Weather Forecast Section-->
+                <section class="current-weather">
                     <h2 id="city-title"></h2>
                     <img id="icon" class="icon">
                     <p id="temperature"></p>
                     <p id="wind-speed"></p>
                     <p id="humidity"></p>
-                </div>
-                <div class="five-day-forecast">
+                </section>
+                 <!-- Five Day Weather Forecast Section-->
+                <section class="five-day-forecast">
                     <div class="five-day-forecast-card" id="card1">
                         <h6 id="date1"></h6>
                         <p id="five-day-temp1"></p>
@@ -78,7 +83,7 @@
                         <p id="five-day-humidity5"></p>
                         <img id="five-day-icon5">
                     </div>
-                </div>
+                </section>
             </div>
         </div>
     </div>
