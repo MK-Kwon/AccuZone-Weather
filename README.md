@@ -2,7 +2,7 @@
 ## Description
 The weather app that gives the user real-time current weather and five day weather forecast by searching for the name of the city. Whenever the user types in new search keyword, it gets saved to the local storage then buttons with the names render on the page for the next time use. User can save up to 8 cities and if the number exceeds 8 then the oldest data will be removed and replaced by the newest input.
 ## Technologies Used
-HTML, CSS, Bootstrap 4, JavaScript, jQuery, the OpenWeatherMap API
+HTML, CSS, Bootstrap 4, JavaScript, jQuery, the OpenWeatherMap API, Photoshop
 ## Deployed Site
 https://mk-kwon.github.io/AccuZone-Weather/
 ## Demo
