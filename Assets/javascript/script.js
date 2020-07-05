@@ -103,8 +103,7 @@ function APIcalls() {
             if(response.list[i].dt_txt.split(" ")[1] === "12:00:00") {
                 let day = response.list[i].dt_txt.split("-")[2].split(" ")[0];
                 let month = response.list[i].dt_txt.split("-")[1];
-                let year = response.list[i].dt_txt.split("-")[0];
-                $("#" + "date" + dayNumber).text(day + "/" + month + "/" + year);
+                $("#" + "date" + dayNumber).text(day + "/" + month);
                 let temp = Math.round(response.list[i].main.temp - 273.15);
                 $("#" + "five-day-temp" + dayNumber).text("Temp: " + temp + String.fromCharCode(176));
                 $("#" + "five-day-humidity" + dayNumber).text("Humidity: " + response.list[i].main.humidity);
