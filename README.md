@@ -1,6 +1,8 @@
 # AccuZone-Weather
 ## Description
-The weather app that gives the user real-time current weather and five day weather forecast by searching for the name of the city.
+The weather app that gives the user real-time current weather and five day weather forecast by searching for the name of the city. Whenever the user types in new search keyword, it gets saved to the local storage then buttons with the names render on the page for the next time use. User can save up to 8 cities and if the number exceeds 8 then the oldest data will be removed and replaced by the newest input.
+
+
 
 
 
@@ -10,10 +12,6 @@ The goal for the project was to create an app which the users can generate their
 
 https://media.giphy.com/media/VFeaeQTmzB1Tc75zE2/giphy.gif
 http://drive.google.com/uc?id=1ohL1y9RkMwlnChTGe6Q7FWjCzulqZO7m
-http://drive.google.com/uc?id=1TW_BPKMNuwmveV6lMLzKQraYcyBn8A17
 
 
-<img src="https://media.giphy.com/media/VFeaeQTmzB1Tc75zE2/giphy.gif" width:1000 height:800>
-<img src="http://drive.google.com/uc?id=1ohL1y9RkMwlnChTGe6Q7FWjCzulqZO7m">
-<img src="http://drive.google.com/uc?id=1TW_BPKMNuwmveV6lMLzKQraYcyBn8A17
-">
+
