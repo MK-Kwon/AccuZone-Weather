@@ -5,6 +5,7 @@ The weather app that gives the user real-time current weather and five day weath
 HTML, CSS, Bootstrap 4, JavaScript, jQuery, the OpenWeatherMap API
 ## Deployed Site
 https://mk-kwon.github.io/AccuZone-Weather/
+## Demo
 <img src="https://media.giphy.com/media/YoKycJGiRgoWR8b4hd/giphy.gif" width:1000 height:800>
 <img src="http://drive.google.com/uc?id=1ohL1y9RkMwlnChTGe6Q7FWjCzulqZO7m">
 <img src="http://drive.google.com/uc?id=1TW_BPKMNuwmveV6lMLzKQraYcyBn8A17">
