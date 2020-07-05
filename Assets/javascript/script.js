@@ -85,7 +85,7 @@ function APIcalls() {
     }).then(function(response) {
         
         let temp = Math.round(response.main.temp - 273.15);
-        $("#icon").attr("src", "http://openweathermap.org/img/w/" + response.weather[0].icon + ".png");
+        $("#icon").attr({"src": "http://openweathermap.org/img/wn/" + response.weather[0].icon + "@2x.png", "height": "65px", "width":"65px"});
         $("#city-title").text(city);
         $("#temperature").text("Temperature " + temp + String.fromCharCode(176));
         $("#humidity").text("Humidity: " + response.main.humidity);
@@ -107,7 +107,7 @@ function APIcalls() {
                 let temp = Math.round(response.list[i].main.temp - 273.15);
                 $("#" + "five-day-temp" + dayNumber).text("Temp: " + temp + String.fromCharCode(176));
                 $("#" + "five-day-humidity" + dayNumber).text("Humidity: " + response.list[i].main.humidity);
-                $("#" + "five-day-icon" + dayNumber).attr({"src": "http://openweathermap.org/img/w/" + response.list[i].weather[0].icon + ".png",
+                $("#" + "five-day-icon" + dayNumber).attr({"src": "http://openweathermap.org/img/wn/" + response.list[i].weather[0].icon + "@2x.png",
                 "height": "50px", "width":"50px"});
                 dayNumber++
             }
