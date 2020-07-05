@@ -10,8 +10,9 @@ The goal for the project was to create an app which the users can generate their
 
 *Deployed Website: https://mk-kwon.github.io/password-generator/
 
-https://media.giphy.com/media/VFeaeQTmzB1Tc75zE2/giphy.gif
-http://drive.google.com/uc?id=1ohL1y9RkMwlnChTGe6Q7FWjCzulqZO7m
 
 
+<img src="https://media.giphy.com/media/VFeaeQTmzB1Tc75zE2/giphy.gif" width:1000 height:800>
+<img src="http://drive.google.com/uc?id=1ohL1y9RkMwlnChTGe6Q7FWjCzulqZO7m">
+<img src="http://drive.google.com/uc?id=1TW_BPKMNuwmveV6lMLzKQraYcyBn8A17">
 
