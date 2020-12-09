@@ -6,11 +6,11 @@ HTML, CSS, Bootstrap 4, JavaScript, jQuery, the OpenWeatherMap API, Photoshop
 ## Deployed Site
 https://mk-kwon.github.io/AccuZone-Weather/
 ## Demo
-<img src="https://media.giphy.com/media/YoKycJGiRgoWR8b4hd/giphy.gif" width:1000 height:800>
-<img src="http://drive.google.com/uc?id=1ohL1y9RkMwlnChTGe6Q7FWjCzulqZO7m">
-<img src="http://drive.google.com/uc?id=1TW_BPKMNuwmveV6lMLzKQraYcyBn8A17">
+<img src="https://media.giphy.com/media/YoKycJGiRgoWR8b4hd/giphy.gif" width ="100%" height="auto">
+<img src="http://drive.google.com/uc?id=1ohL1y9RkMwlnChTGe6Q7FWjCzulqZO7m" width ="100%" height="auto">
+<img src="http://drive.google.com/uc?id=1TW_BPKMNuwmveV6lMLzKQraYcyBn8A17" width ="100%" height="auto">
 ## License
-[MIT] MIT License
+[MIT] MIT License 
 
 Copyright (c) 2020 (Min Kyung Kwon)
 
